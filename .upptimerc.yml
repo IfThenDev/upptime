@@ -9,6 +9,9 @@ sites:
     url: https://www.arbookfind.com/advanced.aspx
   - name: Lexile
     url: https://atlas-fab.lexile.com/free/books/9780590353427
+    headers:
+      # API does versioned content negotiation; without this it returns 406
+      - "Accept: application/json; version=1.0"
   - name: IfThenDev
     url: http://ifthendev.com
 
