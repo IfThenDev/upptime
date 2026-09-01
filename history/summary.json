@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 822,
-    "timeDay": 822,
-    "timeWeek": 822,
-    "timeMonth": 822,
-    "timeYear": 822,
+    "time": 890,
+    "timeDay": 890,
+    "timeWeek": 890,
+    "timeMonth": 890,
+    "timeYear": 890,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 257,
-    "timeDay": 257,
-    "timeWeek": 257,
-    "timeMonth": 257,
-    "timeYear": 257,
+    "time": 428,
+    "timeDay": 428,
+    "timeWeek": 428,
+    "timeMonth": 428,
+    "timeYear": 428,
     "dailyMinutesDown": {}
   },
   {
@@ -41,18 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/atlas-fab.lexile.com.ico",
     "slug": "lexile",
     "status": "down",
-    "uptime": "66.57%",
-    "uptimeDay": "66.57%",
-    "uptimeWeek": "66.57%",
-    "uptimeMonth": "66.57%",
-    "uptimeYear": "66.57%",
-    "time": 102,
-    "timeDay": 102,
-    "timeWeek": 102,
-    "timeMonth": 102,
-    "timeYear": 102,
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
+    "time": 195,
+    "timeDay": 195,
+    "timeWeek": 195,
+    "timeMonth": 195,
+    "timeYear": 195,
     "dailyMinutesDown": {
-      "2026-09-01": 0
+      "2026-09-01": 258
     }
   },
   {
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 197,
-    "timeDay": 197,
-    "timeWeek": 197,
-    "timeMonth": 197,
-    "timeYear": 197,
+    "time": 262,
+    "timeDay": 262,
+    "timeWeek": 262,
+    "timeMonth": 262,
+    "timeYear": 262,
     "dailyMinutesDown": {}
   }
 ]
