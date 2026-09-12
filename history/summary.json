@@ -4,18 +4,20 @@
     "url": "https://www.arbookfind.com/advanced.aspx",
     "icon": "https://icons.duckduckgo.com/ip3/www.arbookfind.com.ico",
     "slug": "ar-book-find",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 499,
-    "timeDay": 343,
-    "timeWeek": 405,
-    "timeMonth": 499,
-    "timeYear": 499,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "98.99%",
+    "uptimeDay": "88.22%",
+    "uptimeWeek": "98.32%",
+    "uptimeMonth": "98.99%",
+    "uptimeYear": "98.99%",
+    "time": 498,
+    "timeDay": 412,
+    "timeWeek": 415,
+    "timeMonth": 498,
+    "timeYear": 498,
+    "dailyMinutesDown": {
+      "2026-09-12": 170
+    }
   },
   {
     "name": "Lexile",
