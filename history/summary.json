@@ -4,7 +4,7 @@
     "url": "https://www.arbookfind.com/advanced.aspx",
     "icon": "https://icons.duckduckgo.com/ip3/www.arbookfind.com.ico",
     "slug": "ar-book-find",
-    "status": "up",
+    "status": "down",
     "uptime": "99.53%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -16,7 +16,8 @@
     "timeMonth": 467,
     "timeYear": 467,
     "dailyMinutesDown": {
-      "2026-09-12": 170
+      "2026-09-12": 170,
+      "2026-09-26": 0
     }
   },
   {
