@@ -4,20 +4,21 @@
     "url": "https://www.arbookfind.com/advanced.aspx",
     "icon": "https://icons.duckduckgo.com/ip3/www.arbookfind.com.ico",
     "slug": "ar-book-find",
-    "status": "down",
-    "uptime": "99.67%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.60%",
-    "uptimeYear": "99.67%",
-    "time": 453,
-    "timeDay": 490,
-    "timeWeek": 430,
-    "timeMonth": 434,
-    "timeYear": 453,
+    "status": "up",
+    "uptime": "99.64%",
+    "uptimeDay": "99.20%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.58%",
+    "uptimeYear": "99.64%",
+    "time": 852,
+    "timeDay": 10226,
+    "timeWeek": 2871,
+    "timeMonth": 961,
+    "timeYear": 852,
     "dailyMinutesDown": {
       "2026-09-12": 170,
-      "2026-09-26": 5
+      "2026-09-26": 5,
+      "2026-10-07": 12
     }
   },
   {
