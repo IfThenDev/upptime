@@ -5,20 +5,20 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.arbookfind.com.ico",
     "slug": "ar-book-find",
     "status": "up",
-    "uptime": "99.66%",
-    "uptimeDay": "98.30%",
-    "uptimeWeek": "99.76%",
-    "uptimeMonth": "99.55%",
-    "uptimeYear": "99.66%",
-    "time": 806,
-    "timeDay": 463,
-    "timeWeek": 2395,
-    "timeMonth": 928,
-    "timeYear": 806,
+    "uptime": "99.67%",
+    "uptimeDay": "98.64%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.56%",
+    "uptimeYear": "99.67%",
+    "time": 800,
+    "timeDay": 425,
+    "timeWeek": 2402,
+    "timeMonth": 931,
+    "timeYear": 800,
     "dailyMinutesDown": {
       "2026-09-12": 170,
       "2026-09-26": 5,
-      "2026-10-11": 25
+      "2026-10-11": 20
     }
   },
   {
@@ -32,11 +32,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 220,
-    "timeDay": 275,
-    "timeWeek": 231,
-    "timeMonth": 231,
-    "timeYear": 220,
+    "time": 219,
+    "timeDay": 181,
+    "timeWeek": 220,
+    "timeMonth": 233,
+    "timeYear": 219,
     "dailyMinutesDown": {}
   },
   {
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 315,
-    "timeDay": 356,
-    "timeWeek": 301,
-    "timeMonth": 321,
-    "timeYear": 315,
+    "time": 316,
+    "timeDay": 395,
+    "timeWeek": 299,
+    "timeMonth": 329,
+    "timeYear": 316,
     "dailyMinutesDown": {}
   }
 ]
