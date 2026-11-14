@@ -8,11 +8,11 @@ assignees:
 
 sites:
   - name: ARBookFind
-    url: https://www.arbookfind.com/advanced.aspx
-    headers:
-      - "Cookie: BFUserType=Parent;"
-    # ASP.NET returns 200 on soft failures; assert the search form actually rendered
-    __dangerous__body_down_if_text_missing: "txtISBN"
+    # The US site was rebuilt ~2026-11-14 (ASP.NET Core "AR BookFinder"); advanced.aspx is gone.
+    # The app now answers this "Who are you?" page once, then searches /Search?q=<isbn>.
+    # Assert the page's own form rendered (it returns 200 on soft failures too).
+    url: https://www.arbookfind.com/UserType
+    __dangerous__body_down_if_text_missing: "handler=Select"
   - name: Lexile
     url: https://atlas-fab.lexile.com/free/books/9780590353427
     headers:
