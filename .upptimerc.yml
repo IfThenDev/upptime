@@ -8,16 +8,35 @@ assignees:
 
 sites:
   - name: ARBookFind
-    # The US site was rebuilt ~2026-11-14 (ASP.NET Core "AR BookFinder"); advanced.aspx is gone.
-    # The app now answers this "Who are you?" page once, then searches /Search?q=<isbn>.
-    # Assert the page's own form rendered (it returns 200 on soft failures too).
-    url: https://www.arbookfind.com/UserType
-    __dangerous__body_down_if_text_missing: "handler=Select"
+    slug: ar-book-find            # explicit: renaming `name` can never move the slug the app matches
+    # The app's own first request: an anonymous search, which the site 302s to its "Who are you?"
+    # gate. Redirects are followed (maxRedirects default 3); only a final 200 counts as up, because
+    # the app treats any other final status as a failed lookup.
+    url: https://www.arbookfind.com/Search?q=9780064400558&lang=en&useLexile=false
+    expectedStatusCodes:
+      - 200
+    # Up when the gate's Parent form (the one the app submits) rendered, or (should the site ever drop the gate) a results list.
+    __dangerous__body_down_if_regex_missing: 'value="Parent"|id="searchResultsList"'
+  - name: ARBookFind UK
+    slug: ar-book-find-uk         # the UK host the app uses for UK schools (D-58-12)
+    # The same anonymous search on the .co.uk host; only a final 200 counts as up, as for the US site.
+    url: https://www.arbookfind.co.uk/Search?q=9780141316048&lang=en&useLexile=false
+    expectedStatusCodes:
+      - 200
+    # Up when the gate's Parent form (the one the app submits) rendered, or (should the site ever drop the gate) a results list.
+    __dangerous__body_down_if_regex_missing: 'value="Parent"|id="searchResultsList"'
   - name: Lexile
+    slug: lexile
+    # The app's Lexile Hub request for one ISBN that has a record; only 200 counts as up (a 404 here
+    # would mean the route or record moved, not a "no level" answer).
     url: https://atlas-fab.lexile.com/free/books/9780590353427
+    expectedStatusCodes:
+      - 200
     headers:
       # API does versioned content negotiation; without this it returns 406
       - "Accept: application/json; version=1.0"
+    # Up only when the reply is a real record.
+    __dangerous__body_down_if_text_missing: '"success":true'
   - name: IfThenDev
     url: http://ifthendev.com
 
